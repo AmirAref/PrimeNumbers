@@ -2,7 +2,7 @@ import 'dart:math';
 
 bool is_prime(int number) {
   // check is prime number
-  for (var i = 2; i < pow(number, 0.5) + 1; i++) {
+  for (var i = 2; i < (pow(number, 0.5)).round() + 1; i++) {
     if (number % i == 0) {
       return false;
     }
