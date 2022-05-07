@@ -37,6 +37,22 @@ _it needs to install [nodejs](https://nodejs.org/en/)_
 
 <br>
 
+### TypeScript
+
+_it needs to install [nodejs](https://nodejs.org/en/)_ 
+_then needs to install [TypeScript](https://www.typescriptlang.org/download)_ 
+
+the TypeScript must compile to JavaScript, then run it like JS
+
+
+| Method                | Command                        | value                      |
+| :-------------------- | ------------------------------ | -------------------------- |
+| Compile               | `node TS/main.ts`              |                            |
+| Run (Like JavaScript) | `node TS/main.js 1000000`      | _in the command arguments_ |
+| Test the Speed        | `time node TS/main.ts 1000000` | _in the command arguments_ |
+
+<br>
+
 ### C
 
 _it only needs to gcc (that is exists in linux os by default)_
