@@ -75,6 +75,16 @@ _it only needs to g++ (that is exists in linux os by default)_
 | Run            | `./C++/main 1000000`           | _in the command arguments_ |
 | Test the Speed | `time ./C++/main 1000000`      | _in the command arguments_ |
 
+<br>Rust
+
+_it only needs to install the [Rust Compiler](https://www.rust-lang.org/tools/install)_
+
+| Method         | Command                    | value                      |
+| :------------- | -------------------------- | -------------------------- |
+| Compile        | `rustc Rust/main.rs`       |                            |
+| Run            | `./Rust/main 1000000`      | _in the command arguments_ |
+| Test the Speed | `time ./Rust/main 1000000` | _in the command arguments_ |
+
 <br>Lua
 
 _it needs to install [Lua](https://lua.org)_ (if not exists)
