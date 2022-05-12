@@ -104,3 +104,19 @@ _it needs to install [Dart sdk](https://dart.dev)_
 | :------------- | -------------------------- | -------------------- |
 | Run            | `dart Dart/main.dart`      | _in the source code_ |
 | Test the Speed | `time dart Dart/main.dart` | _in the source code_ |
+
+
+<br><br>
+## The speed test results (in my pc) :
+_this results is gained from my pc and the `1000000` as number parameter_
+
+| Language         | Total Speed                 |
+| :------------- | :-------------------------- | 
+| TypeScript | 0.134 s|
+| JavaScript | 0.273 s|
+| Rust | 0.548 s|
+| Dart | 0.588 s|
+| C | 0.903 s|
+| C++ | 1.099 s|
+| Python | 2.121 s|
+| Lua | 3.030 s |
