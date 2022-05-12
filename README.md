@@ -40,14 +40,14 @@ _it needs to install [nodejs](https://nodejs.org/en/)_
 ### TypeScript
 
 _it needs to install [nodejs](https://nodejs.org/en/)_ 
-_then needs to install [TypeScript](https://www.typescriptlang.org/download)_ 
+_then needs to install the [TypeScript Compiler](https://www.typescriptlang.org/download)_ 
 
 the TypeScript must compile to JavaScript, then run it like JS
 
 
 | Method                | Command                        | value                      |
 | :-------------------- | ------------------------------ | -------------------------- |
-| Compile               | `node TS/main.ts`              |                            |
+| Compile               | `tsc TS/main.ts`              |                            |
 | Run (Like JavaScript) | `node TS/main.js 1000000`      | _in the command arguments_ |
 | Test the Speed        | `time node TS/main.ts 1000000` | _in the command arguments_ |
 
@@ -104,4 +104,3 @@ _it needs to install [Dart sdk](https://dart.dev)_
 | :------------- | -------------------------- | -------------------- |
 | Run            | `dart Dart/main.dart`      | _in the source code_ |
 | Test the Speed | `time dart Dart/main.dart` | _in the source code_ |
-
