@@ -1,118 +1,83 @@
-# Programming Languages
+# Prime Numbers
 
-this is a repository to run a same algorithm in various programming languages and test the speed of them
+this is a repo to find the prime numbers by a same algorithm in various programming languages (the purpose in doing this is test the speed of them and learn about other languages).
 
 
+<!-- ## What is the Algorithm ? -->
 
-## What is the Algorithm ?
-
-the algorithm that i used is the counting the prime numbers in a range (1,000,000) with a same process and a same method in each language.
-
-## How to set the Value of range ?
+## How to set the range variable ?
 if the value type is the _in the command arguments_, you have to pass the range in the command arguments in the terminal
 but if the valu type is the _in the source code_, you must to change the range in the source code
 
 ## How to Compile and test the speed ?
+here is the commands to run for each language, if you want to check the run time you can use the `time` command before your main command (in linux). like `time python app.py`
 
-### Python
+<br><hr>
 
-_needs to install [Python Interpreter](https://python.org)_ 
+### [Python](https://github.com/AmirAref/PrimeNumbers/tree/master/Python)
 
-| Method         | Command                              | value                      |
-| :------------- | ------------------------------------ | -------------------------- |
-| Run            | `python Python/main.py 1000000`      | _in the command arguments_ |
-| Test the Speed | `time python Python/main.py 1000000` | _in the command arguments_ |
+requirements : [Python Interpreter](https://python.org)  
+Command : `python main.py 1000000`
 
-<br>
+<br><hr>
 
-### JavaScript
+### [JavaScript](https://github.com/AmirAref/PrimeNumbers/tree/master/JS)
 
-_it needs to install [nodejs](https://nodejs.org/en/)_ 
+requirements : [nodejs](https://nodejs.org/en/)  
+Command : `node main.js 1000000`
 
+<br><hr>
 
-| Method         | Command                        | value                      |
-| :------------- | ------------------------------ | -------------------------- |
-| Run            | `node JS/main.js 1000000`      | _in the command arguments_ |
-| Test the Speed | `time node JS/main.js 1000000` | _in the command arguments_ |
-
-<br>
-
-### TypeScript
-
-_it needs to install [nodejs](https://nodejs.org/en/)_ 
-_then needs to install the [TypeScript Compiler](https://www.typescriptlang.org/download)_ 
-
+### [TypeScript](https://github.com/AmirAref/PrimeNumbers/tree/master/TS)
 the TypeScript must compile to JavaScript, then run it like JS
-
-
-| Method                | Command                        | value                      |
-| :-------------------- | ------------------------------ | -------------------------- |
-| Compile               | `tsc TS/main.ts`              |                            |
-| Run (Like JavaScript) | `node TS/main.js 1000000`      | _in the command arguments_ |
-| Test the Speed        | `time node TS/main.ts 1000000` | _in the command arguments_ |
-
 <br>
-
-### C
-
-_it only needs to gcc (that is exists in linux os by default)_
-
-| Method         | Command                      | value                      |
-| :------------- | ---------------------------- | -------------------------- |
-| Compile        | `gcc -o C/main C/main.c -lm` |                            |
-| Run            | `./C/main 1000000`           | _in the command arguments_ |
-| Test the Speed | `time ./C/main 1000000`      | _in the command arguments_ |
-
+requirements :  
+Compile to JavaScript : [TypeScript Compiler](https://www.typescriptlang.org/download)  
+Run with : [node.js](https://nodejs.org/en/)  
 <br>
+Compile : `tsc main.ts`  
+Run (Like JS) : `node main.js 1000000`  
 
-### C++
+<br><hr>
 
-_it only needs to g++ (that is exists in linux os by default)_
+### [C](https://github.com/AmirAref/PrimeNumbers/tree/master/C)
 
-| Method         | Command                        | value                      |
-| :------------- | ------------------------------ | -------------------------- |
-| Compile        | `g++ C++/main.cpp -o C++/main` |                            |
-| Run            | `./C++/main 1000000`           | _in the command arguments_ |
-| Test the Speed | `time ./C++/main 1000000`      | _in the command arguments_ |
+requirements : **gcc** (that is exists in linux distros by default)  
+Compile : `gcc -o main main.c -lm`  
+Run : `./main 1000000`  
 
-<br>
+<br><hr>
 
-### Rust
+### [C++](https://github.com/AmirAref/PrimeNumbers/tree/master/C++)
 
-_it only needs to install the [Rust Compiler](https://www.rust-lang.org/tools/install)_
+requirements : **g++** (that is exists in linux distros by default)  
+Compile : `g++ main.cpp -o main`  
+Run : `./main 1000000`  
 
-| Method         | Command                    | value                      |
-| :------------- | -------------------------- | -------------------------- |
-| Compile        | `rustc Rust/main.rs`       |                            |
-| Run            | `./Rust/main 1000000`      | _in the command arguments_ |
-| Test the Speed | `time ./Rust/main 1000000` | _in the command arguments_ |
+<br><hr>
 
-<br>
+### [Rust](https://github.com/AmirAref/PrimeNumbers/tree/master/Rust)
+requirements : [Rust Compiler](https://www.rust-lang.org/tools/install)  
+Compile : `rustc main.rs`  
+Run : `./main 1000000`  
 
-### Lua
+<br><hr>
 
-_it needs to install [Lua](https://lua.org)_ (if not exists)
+### [Lua](https://github.com/AmirAref/PrimeNumbers/tree/master/Lua)
+requirements : [Lua Interpreter](https://lua.org)  
+Run : `lua main.lua 1000000`  
 
-| Method         | Command                         | value                      |
-| :------------- | ------------------------------- | -------------------------- |
-| Run            | `lua Lua/main.lua 1000000`      | _in the command arguments_ |
-| Test the Speed | `time lua Lua/main.lua 1000000` | _in the command arguments_ |
+<br><hr>
 
-<br>
+### [Dart](https://github.com/AmirAref/PrimeNumbers/tree/master/Dart)
+in the dart language the range variable was define in the source code  
+requirements : [Dart sdk](https://dart.dev)  
+Run : `dart main.dart`  
 
-### Dart
+<br><hr>
 
-_it needs to install [Dart sdk](https://dart.dev)_
-
-| Method         | Command                    | value                |
-| :------------- | -------------------------- | -------------------- |
-| Run            | `dart Dart/main.dart`      | _in the source code_ |
-| Test the Speed | `time dart Dart/main.dart` | _in the source code_ |
-
-
-<br><br>
 ## The speed test results (in my pc) :
-_this results is gained from my pc and the `1000000` as number parameter_
+this results is gained from my pc and the `1000000` as number parameter
 
 | Language         | Total Speed                 |
 | :------------- | :-------------------------- | 
