@@ -14,21 +14,21 @@ here is the commands to run for each language, if you want to check the run time
 
 <br><hr>
 
-### [Python](https://github.com/AmirAref/PrimeNumbers/tree/master/Python)
+## [Python](https://github.com/AmirAref/PrimeNumbers/tree/master/Python)
 
 requirements : [Python Interpreter](https://python.org)  
 Command : `python main.py 1000000`
 
-<br><hr>
+<br>
 
-### [JavaScript](https://github.com/AmirAref/PrimeNumbers/tree/master/JS)
+## [JavaScript](https://github.com/AmirAref/PrimeNumbers/tree/master/JS)
 
 requirements : [nodejs](https://nodejs.org/en/)  
 Command : `node main.js 1000000`
 
-<br><hr>
+<br>
 
-### [TypeScript](https://github.com/AmirAref/PrimeNumbers/tree/master/TS)
+## [TypeScript](https://github.com/AmirAref/PrimeNumbers/tree/master/TS)
 the TypeScript must compile to JavaScript, then run it like JS
 <br>
 requirements :  
@@ -38,54 +38,48 @@ Run with : [node.js](https://nodejs.org/en/)
 Compile : `tsc main.ts`  
 Run (Like JS) : `node main.js 1000000`  
 
-<br><hr>
+<br>
 
-### [C](https://github.com/AmirAref/PrimeNumbers/tree/master/C)
+## [C](https://github.com/AmirAref/PrimeNumbers/tree/master/C)
 
 requirements : **gcc** (that is exists in linux distros by default)  
 Compile : `gcc -o main main.c -lm`  
 Run : `./main 1000000`  
 
-<br><hr>
+<br>
 
-### [C++](https://github.com/AmirAref/PrimeNumbers/tree/master/C++)
+## [C++](https://github.com/AmirAref/PrimeNumbers/tree/master/C++)
 
 requirements : **g++** (that is exists in linux distros by default)  
 Compile : `g++ main.cpp -o main`  
 Run : `./main 1000000`  
 
-<br><hr>
+<br>
 
-### [Rust](https://github.com/AmirAref/PrimeNumbers/tree/master/Rust)
+## [Rust](https://github.com/AmirAref/PrimeNumbers/tree/master/Rust)
 requirements : [Rust Compiler](https://www.rust-lang.org/tools/install)  
 Compile : `rustc main.rs`  
 Run : `./main 1000000`  
 
-<br><hr>
+<br>
 
-### [Lua](https://github.com/AmirAref/PrimeNumbers/tree/master/Lua)
+## [Lua](https://github.com/AmirAref/PrimeNumbers/tree/master/Lua)
 requirements : [Lua Interpreter](https://lua.org)  
 Run : `lua main.lua 1000000`  
 
-<br><hr>
+<br>
 
-### [Dart](https://github.com/AmirAref/PrimeNumbers/tree/master/Dart)
+## [Dart](https://github.com/AmirAref/PrimeNumbers/tree/master/Dart)
 in the dart language the range variable was define in the source code  
 requirements : [Dart sdk](https://dart.dev)  
 Run : `dart main.dart`  
 
 <br><hr>
-
-## The speed test results (in my pc) :
-this results is gained from my pc and the `1000000` as number parameter
-
-| Language         | Total Speed                 |
-| :------------- | :-------------------------- | 
-| TypeScript | 0.134 s|
-| JavaScript | 0.273 s|
-| Rust | 0.548 s|
-| Dart | 0.588 s|
-| C | 0.903 s|
-| C++ | 1.099 s|
-| Python | 2.121 s|
-| Lua | 3.030 s |
+## TODO :
+ - [ ] Java
+ - [ ] C#
+ - [ ] Bash
+ - [ ] PHP
+ - [ ] Go
+ - [ ] Ruby
+ - [ ] Julia
