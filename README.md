@@ -63,6 +63,14 @@ Run : `./main 1000000`
 
 <br>
 
+## [Go](https://github.com/AmirAref/PrimeNumbers/tree/master/Go)
+requirements : [Go Compiler](https://go.dev/)  
+Compile : `go build main.go`  
+Run : `./main 1000000`
+or run without build : `go run main.go 1000000`  
+
+<br>
+
 ## [Lua](https://github.com/AmirAref/PrimeNumbers/tree/master/Lua)
 requirements : [Lua Interpreter](https://lua.org)  
 Run : `lua main.lua 1000000`  
