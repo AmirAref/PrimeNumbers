@@ -8,6 +8,7 @@ this results is gained from my pc and the `1000000` as number parameter
 | JavaScript | 0.273 s|
 | Rust | 0.548 s|
 | Dart | 0.588 s|
+| Go | 0.899 s|
 | C | 0.903 s|
 | C++ | 1.099 s|
 | Python | 2.121 s|
