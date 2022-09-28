@@ -10,7 +10,8 @@ if the value type is the _in the command arguments_, you have to pass the range 
 but if the valu type is the _in the source code_, you must to change the range in the source code
 
 ## How to Compile and test the speed ?
-here is the commands to run for each language, if you want to check the run time you can use the `time` command before your main command (in linux). like `time python app.py`
+here is the commands to run for each language, if you want to check the run time you can use the `time` command before your main command (in linux). like `time python app.py`  
+the result in my machine : [Spped Result](SPEED.md)
 
 <br><hr>
 
