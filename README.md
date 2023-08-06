@@ -89,6 +89,6 @@ Run : `dart main.dart`
  - [ ] C#
  - [ ] Bash
  - [ ] PHP
- - [ ] Go
+ - [x] Go
  - [ ] Ruby
  - [ ] Julia
