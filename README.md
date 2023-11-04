@@ -57,6 +57,14 @@ Run : `./main 1000000`
 
 <br>
 
+## [C#](https://github.com/AmirAref/PrimeNumbers/tree/master/C%23)
+
+requirements : **NET Core 7 runtime**  
+Compile : `dotnet build`  
+Run : `dotnet run`  
+
+<br>
+
 ## [Rust](https://github.com/AmirAref/PrimeNumbers/tree/master/Rust)
 requirements : [Rust Compiler](https://www.rust-lang.org/tools/install)  
 Compile : `rustc main.rs`  
@@ -86,7 +94,7 @@ Run : `dart main.dart`
 <br><hr>
 ## TODO :
  - [ ] Java
- - [ ] C#
+ - [x] C#
  - [ ] Bash
  - [ ] PHP
  - [x] Go
